@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <style>
+      .wrapper {
+        width: 100%;
+		table-layout: fixed;
+		background-color: #fff;
+		padding-bottom: 60px;
+      }
+      .main{
+		background-color: #fff;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 600px;
+		border-spacing: 0;
+		font-family: sans-serif;
+		color: #171a1b;
+        padding: 0;
+        box-sizing: border-box
+	}
+    .column {
+        width: 300px;
+    }
+    </style>
+</head>
+<body>
+
+    <center class="wrapper">
+        <table class="main" width="100%">
+
+            <tr>
+
+                <td class="column" style="padding-left: 10px; padding-top: 20px; padding-bottom: 10px;">
+                    <span style="height: 100px; width: 100px; display: inline-block;">[qr_code]</span>
+                </td>
+
+                <td class="column" style="text-align: end; padding-right: 20px;">
+                    <img width="220" src="https://alte-seilerei-herrieden.de/wp-content/uploads/2024/01/Logo_Kleinkunstbuhne.png" alt="">
+                    <p style="text-align: end; line-height: 6px;">Kleinkunstbühne</p>
+                    <p style="text-align: end; line-height: 6px;">Alte Seilerei Herrieden e.V.</p>
+                    <p style="text-align: end; line-height: 6px;">Winn 7a</p>
+                    <p style="text-align: end; line-height: 6px;">91567 Herrieden</p>
+                </td>
+
+            </tr>
+
+
+            
+            <tr>
+                <td colspan="2" style="padding-top: 40px;">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="border: 2px solid #000;">
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 20px; width: 50%;">Veranstaltung:</td>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 20px; width: 50%;">“Test Veranstaltung”</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 18px; padding-top: 26px; width: 50%;">Veranstaltungs ID:</td>
+                                        <td style="padding: 10px; font-size: 18px; padding-top: 26px; width: 50%; text-align: start;">[event_id]</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 18px; padding-top: 6px; width: 50%;">Veranstaltungsort:</td>
+                                        <td style="padding: 10px; font-size: 18px; padding-top: 6px; width: 50%; text-align: start;">[event_title]</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 18px; padding-top: 6px; width: 50%;">Datum:</td>
+                                        <td style="padding: 10px; font-size: 18px; padding-top: 6px; width: 50%; text-align: start;">[event_post_meta key="_event_start_date"]Uhr</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 18px; padding-top: 6px; width: 50%;">Einlass | Beginn:</td>
+                                        <td style="padding: 10px; font-size: 18px; padding-top: 6px; width: 50%; text-align: start;">[event_post_meta key="_einlass"] Uhr</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px; font-weight: bold; font-size: 18px; padding-top: 6px; width: 50%;">Ticketpreis:</td>
+                                        <td style="padding: 10px; font-size: 18px; padding-top: 6px; width: 50%; text-align: start;">[price]</td>
+                                    </tr>
+
+                                </table>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" style="padding-top: 10px;">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="border: 2px solid #000;">
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <td style="padding: 4px; font-size: 14px; width: 100%; text-align: center;">Ticket wurde online bezahlt.</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" style="padding-top: 140px; padding-bottom: 40px;">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="font-size: 15px;">Wichtige Hinweise für das print@home-Verfahren:</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px;">- Dieser Ausdruck ist durch den zugehörigen Ticketcode ein gültiges Veranstaltungsticket.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px;">- Kopieren ist zwecklos: Jedes Ticket wird am Einlass nur ein einziges Mal akzeptiert und danach entwertet.</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 15px;">Weiterverkauf von print@home-Tickets ist nicht gestattet.</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" style="padding-top: 18px; padding-bottom: 26px; border-top: 2px solid #000;">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="font-size: 17px;">E-Mail: info@alte-seilerei-herrieden.de</td>
+                            <td style="font-size: 17px;">Sparkasse Herrieden</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 17px;">E-Mail-Adresse: alteseilerei@gmx.de</td>
+                            <td style="font-size: 17px;">Iban: DE78 7465 7384 8372 43</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 17px;">Vorstand: Josef Christ</td>
+                            <td style="font-size: 17px;">GENODEF1HR2</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </center>
+
+    
+</body>
+</html>
